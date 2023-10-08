@@ -72,6 +72,7 @@ div button{
     border-radius: 8px;
     color: #f9faf8;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .imggroup{
@@ -93,8 +94,9 @@ div button{
     justify-content: center;
 }
 
-.images {
+.images div {
     text-align: center;
+    width: 202px;
 }
 
 h2{
@@ -109,14 +111,22 @@ h4{
 }
 
 .quote {
-    text-align: center;
     background-color: #e5e7eb;
 }
 
-.quote p{
+.quote .pquote{
     font-size: 36px;
     font-weight: 400;
     font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.quote .auth{
+    margin-top: 0px;
+    text-align: right;
+    font-size: 24px;
+    padding-right: 75px;
 }
 
 .signup{
@@ -137,5 +147,5 @@ h4{
 .footer {
     color: white;
     text-align: center;
-    padding: 25px 0px;
+    padding: 35px 0px;
 }
